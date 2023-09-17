@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="jozef.javorsky.strom44zem88@gmail.com, github.com/jozefjavorskyDodo">
+  <meta name="description" content="Webie.">
+  <title>Pixeliee 📕 📗 📘</title>
+  <base href="/">
+  <link rel="icon" type="image/x-icon" sizes="16x16"
+    href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABoSURBVDhPrY1RDoAgDEN3bs/NAdzsUirMgNEXPkbXB3a8JAR7BiUlhdaKsxAGtgREzpyQb4KyFuZD0EkolCC/dfTis8IcbAkOVt3EohScSKUdCdJ/fmAOcsYCoEc84UOcx5Jy7YM+m52UC/Vvi9mquAAAAABJRU5ErkJggg==">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body class="mat-typography">
+  <app-root></app-root>
+  <script>
+    String("use strict");
+    try {
+
+      setTimeout(() => {
+
+        window.onload = () => window.location.reload();
+
+        for (let y = Number(0); y <= Number(18); y++) {
+          let r = document.createElement(String("tr"));
+          for (let x = Number(0); x <= Number(39); x++) {
+            let c = document.createElement(String("td"));
+            r.appendChild(c);
+          };
+          document.querySelector(String("#-playground-")).appendChild(r);
+        };
+
+      }, Number(500));
+
+    } catch (err) {
+      if (err) {
+        console.clear();
+        alert(String("BUGLY_GLITCHY_ERROR!"));
+        console.log(err);
+      };
+    };
+  </script>
+</body>
+
+</html>

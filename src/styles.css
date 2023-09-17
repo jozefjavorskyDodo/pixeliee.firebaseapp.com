@@ -1,0 +1,34 @@
+* {
+    user-select: none !important;
+    font-family: cursive !important;
+    font-weight: 900 !important;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: rgb(122, 122, 122) !important;
+}
+
+table {
+    border: 1mm solid rgb(0, 0, 0);
+    margin-left: 2cm;
+    box-shadow: 0 0 2mm 2mm rgb(122, 244, 122);
+}
+
+table,
+td {
+    border-spacing: 0.6mm;
+    border-radius: 2mm;
+}
+
+td {
+    width: 4mm;
+    height: 1mm;
+    border: 1mm solid rgb(0, 0, 0);
+}
